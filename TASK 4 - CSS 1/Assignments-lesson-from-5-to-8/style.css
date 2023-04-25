@@ -1,0 +1,117 @@
+.one{
+    width: 500px;
+    padding: 20px; 
+    color: white;
+}
+.assign-1-shape-1{
+    padding: 20px;
+    background-color:blueviolet;
+    background-color: hsl(271, 76%, 53%);
+    background-color: #8a2be2;
+    background-color: rgb(138, 43, 226); 
+}
+.assign-1-shape-2{
+    padding: 20px;
+    background-color: rgb(138 43 226 /50%); 
+}
+.assign-1-shape-3{
+    background-color: rgba(138 43 226 /10%); 
+    padding: 20px;
+}
+.two{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    color: #ffffff;
+}
+.assign-2-shape-1{
+
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:no-repeat ;
+}
+.assign-2-shape-2{
+
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat-y ;
+}
+.assign-2-shape-3{
+ 
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat-x;
+}
+.assign-2-shape-4{
+
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat;
+}
+.three{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    color: #ffffff;
+}
+.assign-3-shape-1{
+ 
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:no-repeat ;
+}
+.assign-3-shape-2{
+  
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat-y ;
+    background-position:right ;
+}
+.assign-3-shape-3{
+ 
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat-x;
+    background-position: bottom ;
+}
+.assign-3-shape-4{
+  
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat;
+}
+.four{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    color: #ffffff;
+}
+.assign-4-shape-1{
+    background-size: 80% 80%;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:no-repeat ;
+}
+.assign-4-shape-2{
+   
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat-y ;
+    background-position:right ;
+    background-size: 80%;
+}
+.assign-4-shape-3{
+ 
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:repeat-x;
+    background-position: bottom ;
+    background-size: 100% 80%;
+}
+.assign-4-shape-4{
+  
+    padding: 20px;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size: 50% 50%;
+}

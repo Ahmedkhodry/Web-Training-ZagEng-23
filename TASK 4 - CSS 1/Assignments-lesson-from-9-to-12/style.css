@@ -1,0 +1,37 @@
+div{
+    display:inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+.assign-1-shape-1{
+border:red solid 5px ;
+}
+.assign-1-shape-2{
+    border-color: blue green;
+    border-style: solid;
+    border-width: 5px;
+}
+.assign-1-shape-3{
+    border-color: red green blue yellow;
+    border-width: 5px;
+    border-style:dashed ;
+}
+p{
+    width: 400px;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+.one{
+border-color:white white white orchid ;
+border-style: solid;
+border-width: 5px;
+}
+.two{
+    visibility: hidden;
+}
+.three{
+    border-color: white white white aqua;
+    border-style: solid;
+    border-width: 5px;
+}
