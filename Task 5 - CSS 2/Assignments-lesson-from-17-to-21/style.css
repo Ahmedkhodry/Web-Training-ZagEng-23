@@ -1,0 +1,50 @@
+span{
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    text-shadow: .5px .5px  rgb(218, 114, 114),1px 1px rgb(130, 130, 231) ;
+    text-transform: capitalize;
+    font-size:x-large;
+}
+.one,
+.two,
+.three{
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+}
+div{
+    padding: 20px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    background-color: rgb(240, 237, 232);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div:hover{
+    overflow: visible;
+}
+a{
+    display:inline-block;
+    text-align: center;
+    color: white;
+    background-color: rgb(36, 230, 185);
+    border-bottom: 5px solid rgb(35, 88, 90);
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

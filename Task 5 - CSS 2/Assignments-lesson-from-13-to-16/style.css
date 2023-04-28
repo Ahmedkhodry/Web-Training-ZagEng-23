@@ -1,0 +1,31 @@
+div.parent div.child span.title{
+    color: red;
+}
+div.parent span.title{
+    color: blue;
+}
+div.parent p{
+    color: green;
+}
+div.title{
+    color: green;
+}
+div.parent p,
+div.title{
+    color: green;
+}
+.one,
+.two,
+.three,
+.four{
+    color: white;
+    background-color: rgb(224, 85, 85);
+    margin: 10px;
+    padding: 10px;
+    max-width: 400px;
+    width:fit-content ;
+}
+.four{
+    max-height: 40px;
+    overflow: hidden;
+}
