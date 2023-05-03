@@ -1,0 +1,160 @@
+body{
+    height: 5000px;
+}
+div.bb{
+    position: absolute;
+    left: 25%;
+}
+.green{
+width: 100px;
+height: 100px;
+background-color: green;
+position: absolute;
+z-index: 3;
+    top: 40px;
+    left: 40px;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    z-index: 4;
+    top: 60px;
+    left: 60px;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}   
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 20px;
+}
+div.aa{
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: #eee;
+    border-color: red blue red blue;
+    border-style: solid;
+    border-width: 5px;
+}
+.top-left{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: -16px;
+    left: -13px;
+    border-right: red solid 2px;
+
+}
+.bottom-left{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 65px;
+    left: -11px;
+    border-right: red solid 2px;
+}
+.top-right{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top:-17px ;
+    right: -10px;
+    border-left: red solid 2px;
+}
+.bottom-right{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 63px;
+    right: -10px;
+    border-left: red solid 2px;
+}
+ul#master{
+    width: 400px;
+    position: absolute;
+    top: 77%;
+    left: 25%;
+    background-color: #eee;
+    padding: 0;
+}
+div.a li,
+div.b li,
+div.c li{
+    list-style: none;
+    border: white 5px solid;
+}
+div.a li ol li,
+div.b li ol li,
+div.c li ul li{
+    border: 0;
+    background-color: white;
+    border: #eee 5px solid;
+}
+div.a li ol li{
+    list-style-type: lower-alpha;
+    list-style-type: decimal;
+}
+div.b li ol li{
+    list-style-type: upper-roman;
+}
+div.c li ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+div.c li ul{
+    padding: 0;
+} 
+
+table{
+    width: 700px;
+    position: absolute;
+    top: 146%;
+    left: 20%;
+    background-color: #eee;
+    border-spacing: 0px;
+    border-bottom: aqua 1px solid;
+}
+table caption{
+    color: black;
+    font-weight: bold;
+}
+table thead td{
+    background-color: rgb(72, 72, 72);
+    text-align: center;
+    color: white;
+}
+table td{
+    border-spacing: 1px;
+    border: white 1px solid;
+    text-align: center;
+}
+.view{
+    color: white;
+    background-color: rgb(49, 151, 195);
+    border: 0px solid;
+}
+.Delete{
+    color: white;
+    background-color: red;
+    border: 0px solid;
+}
