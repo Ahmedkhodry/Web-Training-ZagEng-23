@@ -47,4 +47,6 @@ a{
     margin: 5px;
     text-decoration: none;
     text-transform: capitalize;
+    position: absolute;
+    left: 50%;
 }
