@@ -1,0 +1,231 @@
+.A{
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 115, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-right: rgb(255, 140, 0) solid 5px;
+    border-left: blue solid 5px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 300px;
+    align-content: space-between;
+    justify-content: flex-start;
+    background-color: #eee;
+    margin: 20px auto;
+}
+*{
+    box-sizing: border-box;
+}
+.parent div{
+    color: white;
+    background-color: rgb(205, 49, 29);
+    padding: 15px;
+    margin: 1%;
+    text-align: center;
+    width: calc(94%/3);
+   
+}
+.parent-b{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    flex-flow: wrap;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.one,
+.two, 
+.three,
+.four,
+.five,
+.six{
+    background-color: rgba(61, 45, 91, 0.774);
+    color: white;
+    padding: 1px;
+    width: calc(94%/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.one{
+    order: 6;
+    align-self: flex-end;
+}
+.two{
+    order: 5;
+}
+.three{
+    order: 2;
+    height: 40px;
+   
+}
+.four{
+    order: 3;
+   
+}
+.five{
+    order: 4;
+    margin-top: 0px;
+    
+}
+.six{
+    order: 1;
+  margin-bottom: 0px;
+  
+}
+.parent-a{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    flex-flow:column  wrap;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    color: white;
+}
+.one-a{
+     display: flex; 
+      justify-content: flex-end; 
+     background-color: rgb(48, 156, 156);
+     padding: 10px;
+     margin: 10px;
+     align-self: flex-end;
+     align-items: center;
+     flex-basis: 70px;
+}
+.two-a{
+     display: flex; 
+     background-color: rgb(48, 156, 156);
+     padding: 20px;
+     margin: 20px;
+     justify-content: center;
+     width: 40%;   
+}
+.three-a{
+     display: flex; 
+     justify-content: flex-end; 
+     background-color: rgb(48, 156, 156);
+     padding: 10px;
+     margin: 10px;
+     align-self: flex-end;
+     align-items: center;
+     flex-basis: 70px;
+}
+.parent-c {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: #eeeeee;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+  }
+  .parent-c div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 50%;
+  }
+  .one-c {
+    background-color: #ff9800;
+    order: 2;
+  }
+  .two-c {
+    background-color: #8bc34a;
+    align-self: flex-end;
+    order: 3;
+  }
+  .three-c {
+    background-color: #795548;
+    order: 4;
+  }
+  .four-c {
+    background-color: #673ab7;
+    align-self: flex-end;
+    order: 1;
+  }
+  :root{
+    --maincolor:#dbdbdb;
+    --maindisply:flex;
+
+  }
+
+  .page{
+    display: var(--maindisply);
+    flex-wrap: wrap;
+    height: 400px;
+    width: 600px;
+    background-color: rgba(244, 244, 244, 0.977);
+    margin: auto;
+  }
+  .header{
+    display: var(--maindisply);
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+  }
+  .logo,.links,.content,.sidebar,.copyright,.design,.footer{
+    background-color:var(--maincolor,#595353) ;
+    display: var(--maindisply);
+   
+  }
+  .logo{
+    width: 18%;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+  }
+  .links{
+    list-style: none;
+    width: 78%;
+    margin: 5px;
+ 
+    justify-content: flex-end;
+  }
+  .main-area {
+    display: var(--maindisply);
+    justify-content: space-between;
+    width: 100%;
+    align-items: stretch;
+    height: 330px;
+  }
+  .content{
+    width: 48%;
+    margin-left: 5px;
+  }
+  .sidebar{
+    width: 48%;
+    margin-right: 5px;
+  }
+  .footer{
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+  }
+  .copyright{
+    width: 50%;
+  }
+  .design{
+    width: 50%;
+    justify-content: flex-end;
+  }
